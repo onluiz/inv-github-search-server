@@ -1,7 +1,7 @@
 {
   "name": "inv-github-search-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repo to exchange github code for github token",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
