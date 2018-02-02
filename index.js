@@ -31,10 +31,10 @@ const requestToken = (code, callback) => {
   });
 }
 
+const CLIENT_URL = 'https://onluiz.github.io/inv-github-search/docs/#/home';
 app.get('/login/github/return', function(req, res) {
   const code = req.param('code');
-  req.
-  res.redirect(`http://localhost:8080/#/home/${code}`);
+  res.redirect(`${CLIENT_URL}/${code}`);
 });
 
 app.get('/login/github/token', function(req, res) {
